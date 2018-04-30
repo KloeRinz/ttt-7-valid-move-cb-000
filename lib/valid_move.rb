@@ -21,6 +21,6 @@ def valid_move?(board, index)
     valid_move = true
   elsif
     valid_position == false || position_taken?(board, index) == true
-    valid_move = false 
+    valid_move = false || valid_move = nil
   end
 end
