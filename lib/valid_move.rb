@@ -4,7 +4,7 @@ def valid_move?(board, index)
       index >= 0 || index < 9
       valid_position = true
     end
-    def position_taken?
+    def position_taken?(board, index)
       if
         board[index] == "X" || board[index] == "O"
         position_taken = true
