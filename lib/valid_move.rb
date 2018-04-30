@@ -24,3 +24,5 @@ def valid_move?(board, index)
     valid_move = false || valid_move = nil
   end
 end
+
+valid_move?(board, 100)
